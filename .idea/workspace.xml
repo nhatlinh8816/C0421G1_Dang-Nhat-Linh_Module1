@@ -2,7 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_nang_cao1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_nang_cao2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/tablesimple.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/upgradetable.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/search.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,10 +40,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/_04_git_html/_thuc_hanh" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-05_HTML_Form &amp; Table\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\_04_git_html\_thuc_hanh" />
     </key>
   </component>
@@ -55,7 +62,10 @@
       <workItem from="1619684832365" duration="4321000" />
       <workItem from="1619944083642" duration="116000" />
       <workItem from="1619973310218" duration="282000" />
-      <workItem from="1620013070826" duration="4008000" />
+      <workItem from="1620013070826" duration="12165000" />
+      <workItem from="1620031658232" duration="5089000" />
+      <workItem from="1620036932039" duration="206000" />
+      <workItem from="1620053333123" duration="10605000" />
     </task>
     <servers />
   </component>
