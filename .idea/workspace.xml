@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_nang_cao1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_nang_cao2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/tablesimple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/upgradetable.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/search.html" beforeDir="false" afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/practice/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_alert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_HTML.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_alert.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_document_console.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_document_write.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian2.html" beforeDir="false" afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -40,10 +40,14 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/-06-Tong_quan_javascript/show_input_alert.html" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-05_HTML_Form &amp; Table\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\_04_git_html\_thuc_hanh" />
     </key>
@@ -65,7 +69,9 @@
       <workItem from="1620013070826" duration="12165000" />
       <workItem from="1620031658232" duration="5089000" />
       <workItem from="1620036932039" duration="206000" />
-      <workItem from="1620053333123" duration="10605000" />
+      <workItem from="1620053333123" duration="11149000" />
+      <workItem from="1620097314611" duration="506000" />
+      <workItem from="1620111028198" duration="4953000" />
     </task>
     <servers />
   </component>
@@ -73,6 +79,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1620117719843">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620117719843" />
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1620014243471">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
