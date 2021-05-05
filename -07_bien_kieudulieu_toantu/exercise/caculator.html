@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Máy tính</title>
+</head>
+<body>
+<h1 >Caculator</h1>
+<span><input type="text"id="number1"></span>&nbsp;<span><input type="text"id="number2"></span><br><br>
+<button onclick="add()">Addition(+)</button>&nbsp;<button onclick="sub()">Subtraction(-)</button>&nbsp;<button onclick="multi()">Multipilcation(X)</button>&nbsp;<button onclick="div()">Division(/)</button>
+<br>
+<span>Result:</span>&nbsp;<span id="result"></span>
+<script>
+    function add() {
+    var a = parseInt(document.getElementById("number1").value);
+    var b = parseInt(document.getElementById("number2").value);
+    document.getElementById("result").innerHTML= a+b;
+        }
+    function sub() {
+    var c = parseInt(document.getElementById("number1").value);
+    var d = parseInt(document.getElementById("number2").value);
+    document.getElementById("result").innerHTML= c-d;
+    }
+    function multi() {
+    var e = parseInt(document.getElementById("number1").value);
+    var f = parseInt(document.getElementById("number2").value);
+    document.getElementById("result").innerHTML= e*f;
+    }
+    function div() {
+    var g = parseInt(document.getElementById("number1").value);
+    var h = parseInt(document.getElementById("number2").value);
+    document.getElementById("result").innerHTML= g/h;
+    }
+</script>
+</body>
+</html>

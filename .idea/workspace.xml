@@ -2,12 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_alert.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_HTML.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_alert.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_document_console.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-06-Tong_quan_javascript/practice/show_input_document_write.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian2.html" beforeDir="false" afterPath="$PROJECT_DIR$/-05_HTML_Form &amp; Table/exercise/tao_bang_don_gian2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/average.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/caculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/circle_area.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/circle_diameter.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/covert_currency.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/acreage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_operation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_variable1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_variable2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -18,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -40,16 +44,18 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/-06-Tong_quan_javascript/show_input_alert.html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/-06-Tong_quan_javascript/practice" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-05_HTML_Form &amp; Table\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\_04_git_html\_thuc_hanh" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\practice" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
     </key>
   </component>
   <component name="SvnConfiguration">
@@ -72,6 +78,9 @@
       <workItem from="1620053333123" duration="11149000" />
       <workItem from="1620097314611" duration="506000" />
       <workItem from="1620111028198" duration="4953000" />
+      <workItem from="1620119451720" duration="632000" />
+      <workItem from="1620178812079" duration="22641000" />
+      <workItem from="1620227270405" duration="1572000" />
     </task>
     <servers />
   </component>

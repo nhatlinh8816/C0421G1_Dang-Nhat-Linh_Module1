@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chuyển đổi tiền tệ</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>Amount</th>
+        <th></th>
+        <th>From Currency</th>
+        <th></th>
+        <th>To Currency</th>
+        <th></th>
+        <th></th>
+    </tr>
+    <tr>
+        <td><input type="text" id="amount"></td>
+        <td></td>
+        <td>
+            <select name="country" >
+                <option value="VND">Viet Nam</option>
+            </select>
+        </td>
+        <td></td>
+        <td>
+            <select name="country" >
+                <option value="USD">USD</option>
+            </select>
+        </td>
+        <td></td>
+        <td><button onclick="Convert()">Convert</button></td>
+    </tr>
+</table>
+<span>Result:</span> <span id="quydoi"></span> <span>USD</span>
+<script>
+    function Convert (){
+     var a = document.getElementById("amount").value;
+    document.getElementById("quydoi").innerHTML= a/23000;
+    }
+</script>
+</body>
+</html>
