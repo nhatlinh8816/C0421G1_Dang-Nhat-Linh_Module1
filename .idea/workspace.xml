@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/average.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/caculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/circle_area.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/circle_diameter.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/covert_currency.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/acreage.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_operation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_variable1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_variable2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_variable3.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +71,8 @@
       <workItem from="1620111028198" duration="4953000" />
       <workItem from="1620119451720" duration="632000" />
       <workItem from="1620178812079" duration="22641000" />
-      <workItem from="1620227270405" duration="1572000" />
+      <workItem from="1620227270405" duration="2129000" />
+      <workItem from="1620229658807" duration="2239000" />
     </task>
     <servers />
   </component>
