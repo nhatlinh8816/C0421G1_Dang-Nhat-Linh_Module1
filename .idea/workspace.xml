@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/practice/use_variable3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/if_else_if_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/if_else_practice.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/kiem_tra_nam_nhuan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/sign.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/swicht_case_practice2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/switch_case_practice1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/toan_tu_3_ngoi1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/toan_tu_3_ngoi2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/caculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -73,6 +81,7 @@
       <workItem from="1620178812079" duration="22641000" />
       <workItem from="1620227270405" duration="2129000" />
       <workItem from="1620229658807" duration="2239000" />
+      <workItem from="1620272711084" duration="17205000" />
     </task>
     <servers />
   </component>
