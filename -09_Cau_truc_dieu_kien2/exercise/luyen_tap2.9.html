@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra cạnh của tam giác</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập độ dài cạnh thứ nhất");
+    let b = prompt("Nhập độ dài cạnh thứ hai");
+    let c = prompt("Nhập độ dài cạnh thứ ba");
+    if (a>0&&b>0&&c>0){
+        if (a+b>c){
+            if (a+c>b){
+                if (c+b>a){
+                    alert("có")
+                }else "không"
+            }else {
+                alert("không")
+            }
+        }else {
+            alert("không")
+        }
+    }else {
+        alert("không")
+    }
+</script>
+</body>
+</html>

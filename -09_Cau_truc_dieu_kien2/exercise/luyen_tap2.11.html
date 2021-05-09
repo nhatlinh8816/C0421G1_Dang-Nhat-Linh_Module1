@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính thuế thu nhập cá nhân</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập thu nhập tính thuế (VNĐ)");
+    if (a<5000000){
+        thueTNCN = a*0.05;
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }else if (a<10000000){
+        thueTNCN= a*0.1-250000;
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }else if (a<18000000){
+        thueTNCN=a*0.15-750000;
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }else if (a<32000000){
+        thueTNCN=a*0.2-1650000;
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }else if (a<52000000){
+        thueTNCN=a*0.25-3250000;
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }else if (a<80000000){
+        thueTNCN=a*0.3-5850000;
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }else{
+        thueTNCN=a*0.35-9850000
+        alert("Thuế TNCN phải nộp là "+thueTNCN+" VNĐ");
+    }
+</script>
+</body>
+</html>

@@ -2,15 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/if_else_if_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/if_else_practice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/kiem_tra_nam_nhuan.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/sign.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/swicht_case_practice2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/switch_case_practice1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/toan_tu_3_ngoi1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-08_Cau_truc_dieu_kien1/practice/toan_tu_3_ngoi2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/-07_bien_kieudulieu_toantu/exercise/caculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/bmi.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/count_day_of_month.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.8.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.9.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap_1.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp .html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/simple_caculator.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/keyboard_event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/mouse_event.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,19 +58,30 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/-06-Tong_quan_javascript/practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-05_HTML_Form &amp; Table\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\_04_git_html\_thuc_hanh" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-09_Cau_truc_dieu_kien2\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-05_HTML_Form &amp; Table\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\_04_git_html\_thuc_hanh" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="luyen_tap1.6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0421G1_DangNhatLinh_Module1/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.6.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.luyen_tap1.6.html" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -81,7 +107,9 @@
       <workItem from="1620178812079" duration="22641000" />
       <workItem from="1620227270405" duration="2129000" />
       <workItem from="1620229658807" duration="2239000" />
-      <workItem from="1620272711084" duration="17205000" />
+      <workItem from="1620272711084" duration="17964000" />
+      <workItem from="1620351152197" duration="16676000" />
+      <workItem from="1620528291089" duration="24038000" />
     </task>
     <servers />
   </component>
@@ -93,9 +121,81 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620117719843" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1620014243471">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1620551536317">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1620014243471" />
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1620551536317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1620551536316">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620551536316" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1620551536317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1620551536317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1620551536317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1620551536317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1620551536317">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1620551536317" />
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1620551536319">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620551536319" />
+    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1620551536318">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1620551536318" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1620554068007">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1620554068007" />
+    <state x="92" y="92" width="1182" height="544" key="dock-window-2" timestamp="1620554068008">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="92" width="1182" height="544" key="dock-window-2/0.0.1366.728@0.0.1366.728" timestamp="1620554068008" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1620311211550">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1620311211550" />
   </component>
 </project>
