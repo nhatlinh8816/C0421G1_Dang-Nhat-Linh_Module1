@@ -3,40 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <title>Máy tính đơn giản</title>
+    <style>
+        td, tr, button{
+            width: 50px;
+            height: 50px  ;
+        }
+    </style>
 </head>
 <body>
-    <table border="1">
+    <table border="2">
         <tr>
-            <th colspan="4" style="height: 20px; text-align: right" id="a" ></th>
+            <td colspan="4" id="display"></td>
         </tr>
         <tr>
-            <td><button onclick="update('1')">1</button></td>
-            <td><button onclick="update('2')">2</button></td>
-            <td><button onclick="update('3')">3</button></td>
-            <td><button onclick="update('+')">+</button></td>
+            <td><button type="button" onclick="calbasic('1')">1</button></td>
+            <td><button type="button" onclick="calbasic('2')">2</button></td>
+            <td><button type="button" onclick="calbasic('3')">3</button></td>
+            <td><button type="button" onclick="calbasic('+')">+</button></td>
         </tr>
         <tr>
-            <td><button onclick="update('4')">4</button></td>
-            <td><button onclick="update('5')">5</button></td>
-            <td><button onclick="update('6')">6</button></td>
-            <td><button onclick="update('-')">-</button></td>
+            <td><button type="button" onclick="calbasic('4')">4</button></td>
+            <td><button type="button" onclick="calbasic('5')">5</button></td>
+            <td><button type="button" onclick="calbasic('6')">6</button></td>
+            <td><button type="button" onclick="calbasic('-')">-</button></td>
         </tr>
         <tr>
-            <td><button onclick="update('7')">7</button></td>
-            <td><button onclick="update('8')">8</button></td>
-            <td><button onclick="update('9')">9</button></td>
-            <td><button onclick="update('x')">x</button></td>
+            <td><button type="button" onclick="calbasic('7')">7</button></td>
+            <td><button type="button" onclick="calbasic('8')">8</button></td>
+            <td><button type="button" onclick="calbasic('9')">9</button></td>
+            <td><button type="button" onclick="calbasic('*')">x</button></td>
         </tr>
         <tr>
-            <td><button onclick="update('C')">7</button></td>
-            <td><button onclick="update('0')">0</button></td>
-            <td><button onclick="update('=')">=</button></td>
-            <td><button onclick="update('x')">/</button></td>
+            <td><button type="button" onclick="calbasic('0')">0</button></td>
+            <td><button type="button" onclick="calbasic('C')">C</button></td>
+            <td><button type="button" onclick="calbasic('=')">=</button></td>
+            <td><button type="button" onclick="calbasic('/')">/</button></td>
         </tr>
     </table>
     <script>
-        function update(x) {
-        document.getElementById("a").innerText = x;
+        function calbasic(operator) {
+            console.log(operator)
+        let result = document.getElementById("display").innerText;
+            switch (operator) {
+                case "1":
+                case "2":
+                case "3":
+                case "4":
+                case "5":
+                case "6":
+                case "7":
+                case "8":
+                case "9":
+                case "0":
+                case "+":
+                case "-":
+                    result = result + operator;
+                break;
+                case "*":
+                case "/":
+                    if (display.length!=0)
+                        result = result + operator;
+                 break;
+                 case "C":
+                     result = ""
+                 break;
+                 case "=":
+                     result = eval(result);
+            }
+            document.getElementById("display").innerText = result
         }
     </script>
 </body>

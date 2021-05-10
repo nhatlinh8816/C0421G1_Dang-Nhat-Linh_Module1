@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.9.html" beforeDir="false" afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp .html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/keyboard_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/keyboard_event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-10_Cau_truc_lap1/practice/do_while.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-10_Cau_truc_lap1/practice/use_loop_for1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-10_Cau_truc_lap1/practice/use_loop_for2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-10_Cau_truc_lap1/practice/use_loop_while1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-10_Cau_truc_lap1/practice/use_loop_while2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/simple_caculator.html" beforeDir="false" afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/simple_caculator.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +45,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-10_Cau_truc_lap1\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
@@ -89,7 +93,7 @@
       <workItem from="1620229658807" duration="2239000" />
       <workItem from="1620272711084" duration="17964000" />
       <workItem from="1620351152197" duration="16676000" />
-      <workItem from="1620528291089" duration="34159000" />
+      <workItem from="1620528291089" duration="47864000" />
     </task>
     <servers />
   </component>
@@ -97,6 +101,10 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620634555523">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="439" y="165" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1620634555523" />
     <state x="463" y="118" key="FileChooserDialogImpl" timestamp="1620117719843">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
