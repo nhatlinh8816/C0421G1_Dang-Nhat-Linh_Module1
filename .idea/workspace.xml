@@ -2,30 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/bmi.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/count_day_of_month.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.10.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.11.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.9.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap_1.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp .html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/simple_caculator.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/keyboard_event.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/mouse_event.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.9.html" beforeDir="false" afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/luyen_tap2.9.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/exercise/nháp .html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/keyboard_event.html" beforeDir="false" afterPath="$PROJECT_DIR$/-09_Cau_truc_dieu_kien2/practice/keyboard_event.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +89,7 @@
       <workItem from="1620229658807" duration="2239000" />
       <workItem from="1620272711084" duration="17964000" />
       <workItem from="1620351152197" duration="16676000" />
-      <workItem from="1620528291089" duration="24038000" />
+      <workItem from="1620528291089" duration="34159000" />
     </task>
     <servers />
   </component>
