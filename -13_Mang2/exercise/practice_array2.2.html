@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm số khớp</title>
+</head>
+<body>
+<script>
+let a = [1,2,3,4,5,6]
+    let first;// khai bao vi tri dau tien cua mang
+    let last; //khai bao vi tri cuoi cung cua mang
+    for (first =0, last=a.length-1; first<last; first++, last--){
+        c = a[first]; // c = 1, c =2
+        a[first] = a[last]; //a[0] = 6, a[1] = 5
+        a[last] = c; // a[5] = 1, a[4] = 2
+    } console.log(a)
+    b =  a.toString()
+    console.log(b)
+
+</script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>So sá</title>
+</head>
+<body>
+<script>
+    let a = [1,2,"a","b","c",-3,6,3,9]
+    let b = ["b","c","ae",-3,1,2,3,6,9]
+    let c;
+    let d;
+    c = a.sort();
+    d = b.sort();
+    console.log(c);
+    console.log(d);
+    let count = 0;
+    if(c.length==d.length){
+        for (i=0;i<c.length;i++){
+            if (c[i]==d[i]){
+                count=count+1
+            }else{
+                alert("Không cùng")
+                break;
+            }
+        }
+    } else {
+        alert("Không cùng")
+    }
+    if(count ==c.length){
+        alert("Cùng")
+    }
+</script>
+</body>
+</html>

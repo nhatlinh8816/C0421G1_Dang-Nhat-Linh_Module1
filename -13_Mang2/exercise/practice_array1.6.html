@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm số khớp</title>
+</head>
+<body>
+<p id="Ketqua"></p>
+<script>
+    let a = [1,4,7,13,10,6];
+    let b = parseInt(prompt("Nhập số bất kỳ"));
+    let c = false;
+    for (i=0; i<a.length; i++){
+        if (b==a[i]){
+            alert("V is in the array");
+            c = true;
+            break;
+        }
+    }if (c==false) {
+        alert("V is not in the array")
+    }
+</script>
+</body>
+</html>

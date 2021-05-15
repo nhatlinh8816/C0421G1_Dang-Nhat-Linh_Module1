@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>In dãy Fibonaci theo yêu cầu</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập số lượng phần từ dãy số Fibonaci"));
+    let f0;
+    let f1;
+    let sum=1;
+    let dayso =""
+    for (f0=0,f1=1;f0<=a-1,f1<a;f0++,f1++){
+        console.log(f0,f1)
+        sum = sum+f1
+        dayso = f0+" "+f1+""+sum;
+    }   document.write(dayso)
+</script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm số nguyên trong mảng >=10</title>
+</head>
+<body>
+<p id="Ketqua"></p>
+<script>
+    let a = [1,4,7,1,10,6];
+    let count=0;
+    for (i=0;i<a.length;i++){
+        if (a[i]>=10){
+            count=count+1;
+        }
+    } document.getElementById("Ketqua").innerHTML = "Có "+ count+" số lớn hơn hoặc bằng 10 trong mảng"
+</script>
+</body>
+</html>

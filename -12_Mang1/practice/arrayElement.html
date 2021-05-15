@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {padding-top:50px}
+    </style>
+</head>
+<body>
+    <h1>Sample Screen</h1>
+    <input type="text" id="show">
+    <input type="button" onclick="them();" value="Add" id="them">
+    <input type="button" onclick="hienthi();" value="Display" id="chuyendoi">
+    <p id="display"></p>
+    <script>
+        let a = 0; //Khai báo vị trí phần tử của mảng
+        let array = Array(); // khai báo mảng
+        function them() {
+            array[a] = document.getElementById("show").value; // lay gia tri nhap tu o trang gan voi phan tu co vi tri x trong mang array
+            alert("giá trị "+array[a]+" tại vị trí "+a);
+            a++;
+            document.getElementById("show").value = "";
+        }
+        function hienthi() {
+            let e = "<hr/>"; // khai bao bien e de hien thi ket qua
+            for (i=0; i<array.length; i++){
+                e+= "Phần tử thứ "+ i +" của mảng là "+ array[i] +"<br/>";
+            }
+            document.getElementById("display").innerHTML = e;
+        }
+    </script>
+</body>
+</html>

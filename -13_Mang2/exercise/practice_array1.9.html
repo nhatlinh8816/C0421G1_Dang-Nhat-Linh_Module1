@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Nối mảng</title>
+</head>
+<body>
+<h1>Sample Screen</h1>
+<input type="text" id="show">
+<input type="button" onclick="themA();" value="Lấy giá trị mảng a" id="themA">
+<input type="button" onclick="themB();" value="Lấy giá trị mảng b" id="themB">
+<input type="button" onclick="noi()" value="Nối">
+<p id="display_f"></p>
+<script>
+    let c = [20,21,22,23,25,26,27,28,29,30]
+    console.log(c)
+    let i = 0;
+    let j = 0;
+    let a = Array();
+    let b = Array()
+    function themA() {
+        a[i]=document.getElementById("show").value;
+        alert("Giá trị "+a[i]+" đã thêm vào mảng a tại vị trí "+i)
+        i++
+        document.getElementById("show").value=""
+    }
+    function themB() {
+        b[j]=document.getElementById("show").value;
+        alert("Giá trị "+b[j]+" đã thêm vào mảng b tại vị trí "+j)
+        j++
+        document.getElementById("show").value=""
+    }
+    function noi(){
+        let f=b.concat(a,c)
+        document.getElementById("display_f").innerHTML = f;
+    }
+</script>
+</body>
+</html>

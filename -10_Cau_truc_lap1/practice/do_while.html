@@ -6,10 +6,11 @@
 </head>
 <body>
 <script>
-    let i;
-    for (i=1; i<=10;i++){
-        console.log(i)
-    }
+    let number
+    do {
+        number = parseInt(prompt("Nhập vào số từ 01 đến 10"))
+    } while (number<1||number>10);
+    alert("Số bạn vừa nhập là "+number);
 </script>
 </body>
 </html>

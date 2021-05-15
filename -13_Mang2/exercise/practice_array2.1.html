@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Khởi tạo mảng 2 chiều</title>
+</head>
+<body>
+<p id="display"></p>
+<script>
+let row = parseInt(prompt("Nhập số dòng"));
+let a = new Array(row);
+for (i=0; i<a.length; i++){
+    let col = parseInt(prompt("Nhập số cột của hàng "+i));
+     a[i] = new Array(col);
+        for (j=0;j<col;j++){
+            a[i][j] = parseInt(prompt("Nhập phần tử của hàng "+i+" cột "+j));
+        }
+}console.log(a)
+    b=a.toString()
+    document.write(b)
+</script>
+</body>
+</html>

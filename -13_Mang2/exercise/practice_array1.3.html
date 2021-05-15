@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tìm số nguyên lớn nhất và tính trung bình </title>
+</head>
+<body>
+<p id="Ketqua"></p>
+<script>
+    let a = [1,2,3,4,5,6,7];
+    let max =a[0];
+    let index =0
+    let sum = 0
+    let c;
+    for (i=0;i<a.length;i++){
+        if (a[i]>max){
+            max = a[i];
+            index = i;
+        }
+        sum = sum + a[i];
+        c = sum/a.length;
+    } document.getElementById("Ketqua").innerText = "Giá trị lớn nhất là "+max+ " tại vị trí "+index+" và giá trị trung bình của mảng là "+c
+</script>
+</body>
+</html>
