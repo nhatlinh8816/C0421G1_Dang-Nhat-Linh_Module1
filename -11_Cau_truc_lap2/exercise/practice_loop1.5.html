@@ -2,26 +2,30 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>In dãy Fibonaci 20 số</title>
+    <title>Tổng Fibonaci 20 số</title>
 </head>
 <body>
 <script>
     let F = 1 , F0= 0, F1=1
     let fibonacci = "";
+    let sum = 0
     for (let i=0; i<20;i++){
         if(i==0){
             F0=0
-            F=1
             F1=1
-            fibonacci += F0+ " "
+            F=1
+            fibonacci += F0+" "
+            sum+=F0
         }else{
             F= F0+F1
             F0 = F1
             F1 = F
-            fibonacci += F0+ " "
+            fibonacci += F0+" "
+            sum+=F0
         }
     }
-    document.write(fibonacci)
+    document.write("Dãy số là "+fibonacci+"<br>")
+    document.write("Tổng "+sum)
 </script>
 </body>
 </html>

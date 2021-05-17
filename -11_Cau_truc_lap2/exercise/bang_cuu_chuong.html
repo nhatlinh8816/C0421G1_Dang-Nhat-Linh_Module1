@@ -11,11 +11,11 @@
     for (row =1; row<=10; row++){
         multitable = multitable +"<tr>";
         for (col=1; col<=8; col++){
-             multitable = multitable +"<td>";
-              multitable =multitable + (col+1)+"x"+row+"="+ row*(col+1);
+            multitable = multitable +"<td>";
+            multitable =multitable + (col+1)+"x"+row+"="+ row*(col+1);
             multitable = multitable +"</td>";
-    }
-    multitable = multitable +"</tr>";
+        }
+        multitable = multitable +"</tr>";
     }
     multitable = multitable+"</table>"
     document.write(multitable);

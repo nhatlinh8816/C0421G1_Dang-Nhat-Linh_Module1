@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kiểm tra số nguyên tố</title>
+</head>
+<body>
+<script>
+    let a = parseInt(prompt("Nhập 1 số bất kỳ"))
+    function checkprime(number) {
+        let count = 0
+        if (number>1){
+            for (i=1;i<=number;i++){
+                if (number%i==0){
+                    count++
+                }
+            } if (count==2){
+                return "Là số nguyên tố"
+            }else {
+                return "Không là số nguyên tố"
+            }
+        }else {
+            return "Không là số nguyên tố"
+        }
+    }
+    c = checkprime(a)
+    alert(c)
+</script>
+</body>
+</html>

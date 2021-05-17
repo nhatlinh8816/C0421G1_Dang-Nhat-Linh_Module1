@@ -6,16 +6,23 @@
 </head>
 <body>
 <script>
-    let a = parseInt(prompt("Nhập số lượng phần từ dãy số Fibonaci"));
-    let f0;
-    let f1;
-    let sum=1;
-    let dayso =""
-    for (f0=0,f1=1;f0<=a-1,f1<a;f0++,f1++){
-        console.log(f0,f1)
-        sum = sum+f1
-        dayso = f0+" "+f1+""+sum;
-    }   document.write(dayso)
+    let a = parseInt(prompt("Nhập vào số lượng số thuộc dãy Fibonaci cần in"));
+    let F = 1 , F0= 0, F1=1
+    let fibonacci = "";
+    for (let i=0; i<a;i++){
+        if(i==0){
+            F0=0
+            F=1
+            F1=1
+            fibonacci += F0+ " "
+        }else{
+            F= F0+F1
+            F0 = F1
+            F1 = F
+            fibonacci += F0+ " "
+        }
+    }
+    document.write(fibonacci)
 </script>
 </body>
 </html>

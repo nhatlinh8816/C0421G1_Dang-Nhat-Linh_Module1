@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Tính tiền lãi</title>
 </head>
 <body>
-$END$
+<script>
+    let sotien = Number(prompt("Nhập số tiền vay ngân hàng lãi suất 5%/năm"))
+    let sothang = Number(prompt("Nhập số tháng vay"))
+    let tienlai_thang = 0
+    let tongtienlai = tienlai_thang
+    document.write("Số tiền bạn vay là "+sotien +" VNĐ trong "+sothang+" tháng với lãi suất 5%/ năm"+"<br>")
+    for (let i=0; i<sothang;i++){
+        tienlai_thang = ((sotien*5)/100)/12
+        tongtienlai += tienlai_thang
+        sotien-=(tienlai_thang+sotien/sothang)
+        document.write("Tiền lãi tháng "+(i+1)+" là "+tienlai_thang+" VNĐ<br>")
+    }
+    document.write("Tổng tiền lãi của bạn trong "+sothang+" là "+tongtienlai+" VNĐ")
+
+</script>
 </body>
 </html>

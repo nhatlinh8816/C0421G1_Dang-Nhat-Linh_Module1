@@ -2,17 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Kiểm tra nhiệt độ</title>
 </head>
 <body>
 <script>
     let nhietdo = Number(prompt("Nhập vào nhiệt độ"))
-    while (nhietdo<20 || nhietdo>100){
+    while (nhietdo<20 || nhietdo>100){      // thiet lap dieu kien nhiet do <20 và >100. Neu dung yeu cau nguoi dung tang/giam va nhap lai
         if(nhietdo<20){
-            alert("Nhiệt độ quá lạnh")
+            alert("Tăng nhiệt độ")
             nhietdo = Number(prompt("Nhập vào nhiệt độ"))
         }else if(nhietdo>100){
-            alert("Nhiệt độ quá nóng")
+            alert("Giảm nhiệt độ")
             nhietdo = Number(prompt("Nhập vào nhiệt độ"))
         }
     }
