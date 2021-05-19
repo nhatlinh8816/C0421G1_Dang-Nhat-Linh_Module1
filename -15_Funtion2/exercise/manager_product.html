@@ -55,7 +55,7 @@
     function editItems(index) {
         if (confirm("Are you want to edit this item")){
             let editItem = prompt("Please input item you want to edit")
-            if (editItem!=""){
+            if (editItem !=null && editItem.length != 0){
                 itemsList.splice(index,1,editItem)
                 displayItems()
             }

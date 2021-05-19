@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/Palindrome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/manager_product.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/nháp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-13_Mang2/exercise/insert_random_position.html" beforeDir="false" afterPath="$PROJECT_DIR$/-13_Mang2/exercise/insert_random_position.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.9.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +94,8 @@
       <workItem from="1620878822493" duration="61848000" />
       <workItem from="1621135029550" duration="24651000" />
       <workItem from="1621214415791" duration="39067000" />
-      <workItem from="1621386158948" duration="33729000" />
+      <workItem from="1621386158948" duration="34411000" />
+      <workItem from="1621438388159" duration="591000" />
     </task>
     <servers />
   </component>
