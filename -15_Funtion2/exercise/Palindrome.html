@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Palindrome</title>
+</head>
+<body>
+<script>
+    let a = prompt("Nhập chuỗi cần kiểm tra");
+    let c = a.split("")
+    console.log(c)
+    function isPalindrome(b) {
+        let check = true
+        for (i=0,j=b.length-1;i<=j;i++,j--){
+            if (b[i]!=b[j]){
+                check = false
+                return "Chuỗi trên không là Palindrome"
+            }
+        } if (check){
+            return  "Chuỗi trên là Palindrome"
+        }
+    }
+    let result = isPalindrome(c)
+    document.write(result)
+</script>
+</body>
+</html>

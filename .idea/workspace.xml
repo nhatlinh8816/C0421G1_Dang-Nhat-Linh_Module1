@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.6.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.7.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.8.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-13_Mang2/exercise/dictionary.html" beforeDir="false" afterPath="$PROJECT_DIR$/-13_Mang2/exercise/dictionary.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-13_Mang2/exercise/practice_array1.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/-13_Mang2/exercise/practice_array1.3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-13_Mang2/exercise/practice_array2.4.html" beforeDir="false" afterPath="$PROJECT_DIR$/-13_Mang2/exercise/practice_array2.4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-13_Mang2/exercise/practice_array2.5.html" beforeDir="false" afterPath="$PROJECT_DIR$/-13_Mang2/exercise/practice_array2.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/Palindrome.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/manager_product.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-13_Mang2/exercise/insert_random_position.html" beforeDir="false" afterPath="$PROJECT_DIR$/-13_Mang2/exercise/insert_random_position.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.9.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,18 +42,18 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/-15_Funtion2/exercise" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-10_Cau_truc_lap1\practice" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\practice" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-15_Funtion2\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-11_Cau_truc_lap2\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-09_Cau_truc_dieu_kien2\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-10_Cau_truc_lap1\practice" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
     </key>
   </component>
@@ -112,7 +99,7 @@
       <workItem from="1620878822493" duration="61848000" />
       <workItem from="1621135029550" duration="24651000" />
       <workItem from="1621214415791" duration="39067000" />
-      <workItem from="1621386158948" duration="3731000" />
+      <workItem from="1621386158948" duration="33729000" />
     </task>
     <servers />
   </component>

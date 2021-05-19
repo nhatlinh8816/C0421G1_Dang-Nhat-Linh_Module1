@@ -2,11 +2,31 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>swap array</title>
+    <title>find character in array</title>
 </head>
 <body>
 <script>
-    
+    let random = prompt("Nhập mảng ký tự bất kỳ");
+    let a = prompt("Nhập ký tự bất kỳ")
+    b = random.split("");
+    console.log(b)
+    function scan() {
+        let count = 0;
+        let check = true
+        for (i=0;i<b.length;i++){
+            if (a==b[i]){
+                check = false
+                count++
+            }
+        }
+        if (check){
+            return -1
+        } else {
+            return "Ký tự "+a+" xuất hiện "+count+" lần trong mảng"
+        }
+    }
+    let result = scan(random)
+    document.write(result)
 </script>
 </body>
 </html>

@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Manager Product</title>
+</head>
+<body>
+<h3>Add new product</h3>
+<input type="text" placeholder="New Product" id="addNewProduct">
+<input type="button" value="Add" onclick="addItems()">
+<h3>Display all product</h3>
+<div id="productTable"></div>
+<script>
+    let itemsList = ["Rau", "Thịt lợn", "Trứng","Nước mắm", "Xì dầu"]
+    function displayItems() {
+        let html=
+            "<table>"+
+            "<tr>"+
+            "<th>Serial</th>"+
+            "<th>ProductName</th>"+
+            "<th>Edit</th>"+
+            "<th>Delete</th>"+
+            "</tr>";
+        for (i=0;i<itemsList.length;i++)
+        html = html+
+            "<tr>"+
+            "<td>"+(i+1)+"</td>"+
+            "<td>"+itemsList[i]+"</td>"+
+            "<td><button onclick='editItems("+i+")'>Edit</button></td>"+
+            "<td><button onclick='deleteItems("+i+")'>Delete</button></td>"+
+            "</tr>";
+        html = html+
+             "</table>";
+        document.getElementById("productTable").innerHTML = html;
+    }
+    displayItems()
+    function addItems() {
+        let newitem = document.getElementById("addNewProduct").value;
+        if (newitem==""){
+            alert("Please type new product")
+        } else {
+            itemsList.push(newitem);
+            displayItems()
+            alert(newitem+" đã được thêm thành công")
+            document.getElementById("addNewProduct").value=""
+        }
+    }
+    function deleteItems(index){
+        if (confirm("Are you want to delete this item")){
+            itemsList.splice(index,1)
+            displayItems();
+        }
+    }
+    function editItems(index) {
+        if (confirm("Are you want to edit this item")){
+            let editItem = prompt("Please input item you want to edit")
+            if (editItem!=""){
+                itemsList.splice(index,1,editItem)
+                displayItems()
+            }
+            }else {
+            itemsList.splice(index,0)
+            displayItems()
+
+        }
+    }
+</script>
+</body>
+</html>
