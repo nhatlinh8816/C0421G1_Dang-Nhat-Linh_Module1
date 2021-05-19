@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Constellation and Star</title>
+</head>
+<body>
+<script>
+let a = ["Polaris", "Aldebaran", "Deneb", "Vega", "Altair", "Dubhe", "Regulus"];
+let b = ["Ursa Minor", "Tarurus", "Cygnus", "Lyra", "Aquila", "Ursa Major", "Leo"];
+console.log(a);
+console.log(b);
+let d = prompt("Nhập tên ngôi sao")
+let e = true
+    function star(c){
+        for (i=0;i<a.length;i++){
+            if (c==a[i]){
+                e = false
+                return "Chòm sao của ngôi sao bạn nhập có tên là " + b[i]
+            }
+        }
+        if (e){
+            return  "Không tìm thấy chòm sao nào"
+        }
+}
+e = star(d);
+document.write(e)
+</script>
+</body>
+</html>

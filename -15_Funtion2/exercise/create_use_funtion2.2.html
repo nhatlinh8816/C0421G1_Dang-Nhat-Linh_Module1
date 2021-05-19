@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>perimeter and acreage of circle</title>
+</head>
+<body>
+<script>
+let a = parseFloat(prompt("Nhập bán kính hình tròn"));
+function perimeter(r) {
+    return 2*r*3.14
+}
+function acreage(r) {
+    return r*r*3.14
+}
+let perA = perimeter(a);
+let acrA = acreage(a);
+document.write("Chu vi hình tròn là "+ perA+" và diện tích hình tròn là "+acrA)
+</script>
+</body>
+</html>

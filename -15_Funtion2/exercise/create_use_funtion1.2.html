@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tạo hàm tăng đối số lên 1 đơn vị</title>
+</head>
+<body>
+<p><span id="display"></span></p>
+<script>
+    let a = parseFloat(prompt("Nhập số bất kỳ"))
+    function increase1(number) {
+        return number+1
+    }
+    document.getElementById("display").innerHTML = "số vừa nhập tăng lên 1 đơn vị là "+increase1(a)
+</script>
+</body>
+</html>

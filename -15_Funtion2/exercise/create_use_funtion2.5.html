@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Min of number</title>
+</head>
+<body>
+<script>
+let number1 = parseInt(prompt("Nhập số nguyên thứ nhất"));
+let number2 = parseInt(prompt("Nhập số nguyên thứ hai"));
+let number3 = parseInt(prompt("Nhập số nguyên thứ ba"));
+function min(a,b,c) {
+    if (a<b){
+        if (a<c){
+            return a
+        } else{
+            return c
+        }
+    }else {
+        if (b<c){
+            return b
+        }else{
+            return c
+        }
+    }
+}
+let result = min(number1,number2,number3);
+document.write(result+" là số nhỏ nhất")
+</script>
+</body>
+</html>

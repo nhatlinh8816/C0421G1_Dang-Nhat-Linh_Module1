@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Number or string</title>
+</head>
+<body>
+<script>
+let a = prompt("Nhập vào ký tự bất kỳ");
+function checknumber(element) {
+    if (isNaN(element)){
+        return false
+    } else {
+        return true
+    }
+}
+let checkA = checknumber(a);
+document.write(checkA)
+</script>
+</body>
+</html>

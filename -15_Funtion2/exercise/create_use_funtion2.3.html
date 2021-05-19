@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>factorial of number</title>
+</head>
+<body>
+<script>
+let a = parseInt(prompt("Nhập số nguyên bất kỳ"));
+let factorial = 1
+function factoriaofnumber(number) {
+    if (a>0){
+        for (i=1;i<=number;i++){
+            factorial = factorial*i
+        } return factorial
+    }else {
+        return "Không tính được giai thừa"
+    }
+}
+let facA = factoriaofnumber(a);
+document.write("Giai thừa của "+a+" là "+facA)
+</script>
+</body>
+</html>
