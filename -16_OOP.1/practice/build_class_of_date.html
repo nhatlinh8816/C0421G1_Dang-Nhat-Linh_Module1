@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Class of Date</title>
+</head>
+<body>
+<script>
+    let MyDate = function (day, month, year) { // xay dựng class myDate với 3 tham số truyền vào là day, month, year
+        this.day = day;
+        this.month = month;
+        this.year = year;
+    this.getDay = function () {             // xây dựng phương thức trả về ngày
+        return this.day;
+    }
+    this.getMonth = function () {           // xây dựng phương thức trả về tháng
+        return this.month;
+    }
+    this.getYear = function () {            // xây dựng phương thức trả về năm
+        return this.year;
+    }
+    this.setDay = function (day) {         // xây dựng phương thức thiết lập lại giá trị ngày
+        this.day = day;
+    }
+    this.setMonth = function (month) {       // xây dựng phương thức thiết lập giá trị tháng
+        this.month = month;
+    }
+    this.setYear = function (year) {        //xây dựng phương thúc thiết lập giá trị năm
+        this.year = year;
+    }
+    this.setDate = function (day,month,year) {
+        this.day = day
+        this.month = month
+        this.year = year
+    }
+    this.toStringg = function () {
+        return day+"/"+month+"/"+year;
+    }
+    };
+    let date = new MyDate(13,2,1994);
+    let day = date.getDay();
+    let month = date.getMonth();
+    let year = date.getYear();
+    alert(day+"/"+month+"/"+year);
+    date.setDay(20);
+    date.setMonth(5);
+    date.setYear(2021);
+    let day1 = date.getDay();
+    let month1 = date.getMonth();
+    let year1 = date.getYear();
+    alert(day1+"/"+month1+"/"+year1)
+    date.setDate(4,1,1994);
+    let day2 = date.getDay();
+    let month2 = date.getMonth();
+    let year2 = date.getYear();
+    alert(day2+"/"+month2+"/"+year2)
+</script>
+</body>
+</html>

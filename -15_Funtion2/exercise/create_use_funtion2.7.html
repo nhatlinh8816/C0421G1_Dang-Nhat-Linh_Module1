@@ -6,13 +6,16 @@
 </head>
 <body>
 <script>
+function swapNumber(arr) {
+    let c= arr[0];
+    arr[0]=arr[1];
+    arr[1]=c;
+}
 let a = parseFloat(prompt("Nhập số bất kỳ"))
 let b = parseFloat(prompt("Nhập số bất kỳ"))
-function swapnumber(num1,num2) {
-    return num2+" ,"+num1
-}
-let result = swapnumber(a,b);
-document.write(result)
+let myArr = [a,b];
+swapNumber(myArr)
+document.write(myArr[0]+";"+myArr[1]);
 </script>
 </body>
 </html>

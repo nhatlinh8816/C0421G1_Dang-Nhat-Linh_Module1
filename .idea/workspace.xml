@@ -2,6 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_circle.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_date.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_rectangle(class).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_rectangle(function).html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/check_prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/check_prime.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.5.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.6.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.7.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,16 +47,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/-15_Funtion2/exercise" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/-16_OOP.1/practice" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-15_Funtion2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-11_Cau_truc_lap2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-09_Cau_truc_dieu_kien2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-10_Cau_truc_lap1\practice" />
@@ -51,13 +57,24 @@
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-07_bien_kieudulieu_toantu\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-06-Tong_quan_javascript\practice" />
     </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-16_OOP.1\practice" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-15_Funtion2\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-11_Cau_truc_lap2\exercise" />
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-09_Cau_truc_dieu_kien2\exercise" />
+    </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JavaScript Debug.build_class_of_rectangle(function).html">
+    <configuration name="build_class_of_rectangle(function).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0421G1_DangNhatLinh_Module1/-16_OOP.1/practice/build_class_of_rectangle(function).html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="luyen_tap1.6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0421G1_DangNhatLinh_Module1/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.6.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.build_class_of_rectangle(function).html" />
         <item itemvalue="JavaScript Debug.luyen_tap1.6.html" />
       </list>
     </recent_temporary>
@@ -95,7 +112,8 @@
       <workItem from="1621135029550" duration="24651000" />
       <workItem from="1621214415791" duration="39067000" />
       <workItem from="1621386158948" duration="34411000" />
-      <workItem from="1621438388159" duration="591000" />
+      <workItem from="1621438388159" duration="815000" />
+      <workItem from="1621481931437" duration="28402000" />
     </task>
     <servers />
   </component>
@@ -111,70 +129,70 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="118" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1620117719843" />
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.0.center" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1620660250192">
+    <state width="1345" height="223" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.0.left" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1620660250192" />
-    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.0.right" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom" timestamp="1621517060880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621517060880" />
+    <state width="1345" height="223" key="GridCell.Tab.1.center" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.1.left" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1620660250193">
+    <state width="1345" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.1.right" timestamp="1621517060879">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1620660250193" />
-    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1620660250194">
+    <state width="1345" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1621517060879" />
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom" timestamp="1621517060880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620660250194" />
-    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1620660250194">
+    <state width="1345" height="223" key="GridCell.Tab.2.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621517060880" />
+    <state width="1345" height="223" key="GridCell.Tab.2.center" timestamp="1621517060880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1620660250194" />
-    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1620660250194">
+    <state width="1345" height="223" key="GridCell.Tab.2.center/0.0.1366.728@0.0.1366.728" timestamp="1621517060880" />
+    <state width="1345" height="223" key="GridCell.Tab.2.left" timestamp="1621517060880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1620660250194" />
-    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1620660250194">
+    <state width="1345" height="223" key="GridCell.Tab.2.left/0.0.1366.728@0.0.1366.728" timestamp="1621517060880" />
+    <state width="1345" height="223" key="GridCell.Tab.2.right" timestamp="1621517060880">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1620660250194" />
-    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1620660250196">
+    <state width="1345" height="223" key="GridCell.Tab.2.right/0.0.1366.728@0.0.1366.728" timestamp="1621517060880" />
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom" timestamp="1621517060881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1620660250196" />
-    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1620660250195">
+    <state width="1345" height="223" key="GridCell.Tab.3.bottom/0.0.1366.728@0.0.1366.728" timestamp="1621517060881" />
+    <state width="1345" height="223" key="GridCell.Tab.3.center" timestamp="1621517060881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1620660250195" />
-    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1620660250194">
+    <state width="1345" height="223" key="GridCell.Tab.3.center/0.0.1366.728@0.0.1366.728" timestamp="1621517060881" />
+    <state width="1345" height="223" key="GridCell.Tab.3.left" timestamp="1621517060881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1620660250194" />
-    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1620660250195">
+    <state width="1345" height="223" key="GridCell.Tab.3.left/0.0.1366.728@0.0.1366.728" timestamp="1621517060881" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right" timestamp="1621517060881">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1620660250195" />
+    <state width="1345" height="223" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1621517060881" />
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1620554068007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

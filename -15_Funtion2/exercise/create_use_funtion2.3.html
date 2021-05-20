@@ -7,10 +7,10 @@
 <body>
 <script>
 let a = parseInt(prompt("Nhập số nguyên bất kỳ"));
-let factorial = 1
 function factoriaofnumber(number) {
-    if (a>0){
-        for (i=1;i<=number;i++){
+    if (number>0){
+        let factorial = 1
+        for (let i=1;i<=number;i++){
             factorial = factorial*i
         } return factorial
     }else {
@@ -19,6 +19,9 @@ function factoriaofnumber(number) {
 }
 let facA = factoriaofnumber(a);
 document.write("Giai thừa của "+a+" là "+facA)
+let b = parseInt(prompt("Nhập số nguyên bất kỳ"));
+let facB = factoriaofnumber(b);
+document.write("Giai thừa của "+b+" là "+facB)
 </script>
 </body>
 </html>

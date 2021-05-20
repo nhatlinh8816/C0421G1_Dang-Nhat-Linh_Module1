@@ -15,13 +15,9 @@ let e = true
     function star(c){
         for (i=0;i<a.length;i++){
             if (c==a[i]){
-                e = false
                 return "Chòm sao của ngôi sao bạn nhập có tên là " + b[i]
             }
-        }
-        if (e){
-            return  "Không tìm thấy chòm sao nào"
-        }
+        }return  "Không tìm thấy chòm sao nào"
 }
 e = star(d);
 document.write(e)
