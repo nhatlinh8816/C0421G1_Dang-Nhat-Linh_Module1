@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_circle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_rectangle(class).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_rectangle(function).html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/build_class_of_temperature.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/-16_OOP.1/practice/nháp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/check_prime.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/check_prime.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.5.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion1.5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.2.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.3.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.6.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.7.html" beforeDir="false" afterPath="$PROJECT_DIR$/-15_Funtion2/exercise/create_use_funtion2.7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +51,7 @@
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.build_class_of_rectangle(function).html">
-    <configuration name="build_class_of_rectangle(function).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0421G1_DangNhatLinh_Module1/-16_OOP.1/practice/build_class_of_rectangle(function).html" useBuiltInWebServerPort="true">
+    <configuration name="build_class_of_rectangle(function).html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0421G1_DangNhatLinh_Module1/-16_OOP.1/exercise/build_class_of_rectangle(function).html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="luyen_tap1.6.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/C0421G1_DangNhatLinh_Module1/-09_Cau_truc_dieu_kien2/exercise/luyen_tap1.6.html" useBuiltInWebServerPort="true">
@@ -113,7 +98,7 @@
       <workItem from="1621214415791" duration="39067000" />
       <workItem from="1621386158948" duration="34411000" />
       <workItem from="1621438388159" duration="815000" />
-      <workItem from="1621481931437" duration="28402000" />
+      <workItem from="1621481931437" duration="28753000" />
     </task>
     <servers />
   </component>
