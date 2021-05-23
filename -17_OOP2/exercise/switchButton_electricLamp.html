@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Switch Button and Electric Lamp</title>
+</head>
+<body>
+<script>
+    class ElectricLamp{
+        constructor(status) {
+            this.status = status
+        }
+        turnOn(){
+            if (this.status ==false){
+                alert("The Electric Lamp is on")
+                return this.status=true;
+            }else {
+                alert("The Electric Lamp has been turned on");
+            }
+        }
+        turnOff(){
+            if (this.status==true){
+                alert("The Electric Lamp is off")
+                return this.status=false;
+            } else {
+                alert("The Electric Lamp has been turned off")
+            }
+        }
+    }
+    class SwitchButton{
+        constructor(status,lamp) {
+            this.status = status;
+            this.lamp =lamp;
+        }
+        connectToLamp(lamp){
+            if (this.status==true){
+                alert("Connected")
+            } else {
+                alert("Disconnect");
+            }
+        }
+        switchOn(){
+            alert("The switch is on")
+            return this.status=true;
+
+        }
+        switchOff(){
+            alert("The switch is off")
+            return this.status=false;
+        }
+    }
+    let electricLamp1 = new ElectricLamp();
+    let switchButton1 = new SwitchButton(false,electricLamp1);
+    switchButton1.switchOn()
+    switchButton1.connectToLamp(electricLamp1);
+
+</script>
+</body>
+</html>

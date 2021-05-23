@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Remote</title>
+</head>
+<body>
+<script>
+    class Remote{
+        constructor(code) {
+            this.code = code;
+        }
+        changeChannel(channelA){
+            tv1.channel = channelA;
+            alert("TV is changed to "+channelA);
+        }
+        turnOnOff(tivi){
+            if (tivi.status==true){
+                alert("TV is off")
+               return tivi.status=false
+            }else {
+                alert("TV is on")
+                return tivi.status=true
+            }
+        }
+        decreaseVolume(){
+            tv1.decreaseVolumeTV()
+            console.log("The TV volume has been down to 1")
+        }
+        increaseVolume(){
+            tv1.increaseVolumeTV()
+            console.log("The TV volume has been up to 1")
+        }
+    }
+    class TV{
+        constructor(channel,volume,status,remote) {
+            this.channel = channel;
+            this.volume = volume;
+            this.status = status;
+            this.remote =remote;
+        }
+        setChannel(channel){
+            this.channel = channel;
+            alert("TV has changed to "+this.channel)
+        }
+        decreaseVolumeTV(){
+            if (this.volume>0){
+                return this.volume--
+            }else {
+                return this.volume=0
+            }
+        }
+        increaseVolumeTV(){
+            return this.volume++
+        }
+    }
+    let remote1 = new Remote("LG");
+    let tv1 = new TV("VTV1",20,false,remote1);
+    console.log(tv1);
+    remote1.turnOnOff(tv1);
+    tv1.setChannel("VTV7")
+    console.log(tv1);
+    remote1.changeChannel("VTV5");
+    console.log(tv1);
+    for (i=0;i<2;i++){
+        remote1.increaseVolume()
+    }
+    console.log(tv1)
+    remote1.turnOnOff(tv1);
+    console.log(tv1)
+
+</script>
+</body>
+</html>

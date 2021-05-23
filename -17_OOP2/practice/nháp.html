@@ -1,0 +1,120 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor(weight) {
+            this.weight = weight;
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+        decrease() {
+            if (this.weight > 0) {
+                this.weight--;
+            }
+        }
+
+        isEmpty() {
+            if (this.weight == 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+    }
+
+    class Human {
+        constructor(name, gender, weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight;
+        }
+
+        getName() {
+            return this.name;
+        }
+
+        getWeight() {
+            return this.weight;
+        }
+
+        getGender() {
+            return this.gender;
+        }
+
+        setName(newName) {
+            this.name = newName;
+        }
+
+        setWeight(newWeight) {
+            this.weight = newWeight;
+        }
+
+        isMale() {
+            if (this.gender == "Male") {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        checkApple(apple) {
+            if (apple.getWeight() > 0) {
+                return true;
+            } else {
+                return false;
+            }
+        }
+
+        eat(apple) {
+            if (apple.getWeight() > 0) {
+                this.weight++;
+                apple.decrease();
+            }
+        }
+
+        say(content) {
+            alert(this.name + " say: " + content);
+        }
+    }
+
+    let appleRed = new Apple(10);
+    let adam = new Human("Adam", "Male", 60);
+    let eva = new Human("Eva", "Female", 40);
+
+    adam.say("hello");
+    eva.say("hello");
+
+    adam.eat(appleRed);
+    alert("Apple weight: " + appleRed.getWeight()); //9
+    alert("Adam weight: " + adam.getWeight()); //61
+
+    eva.eat(appleRed);
+    alert("Apple weight: " + appleRed.getWeight()); //8
+    alert("Eva weight: " + eva.getWeight()); //61
+
+    // for (let i = 8; i > 0; i--) {
+    //     adam.eat(appleRed);
+    //     adam.eat(appleRed);
+    // }
+    while (appleRed.isEmpty() == false){
+        adam.eat(appleRed);
+        eva.eat(appleRed);
+    }
+
+    alert("Apple weight: " + appleRed.getWeight());
+    alert("Adam weight: " + adam.getWeight());
+    alert("Eva weight: " + eva.getWeight());
+
+
+</script>
+</body>
+</html>

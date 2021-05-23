@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adam and Eva</title>
+</head>
+<body>
+<script>
+    class Apple {
+        constructor(weight) {
+            this.weight = weight;
+        }
+        decrease(){
+            if (this.weight>0){
+                this.weight--;
+            }
+        }
+        getWeight(){
+            return this.weight;
+        }
+        isEmpty(){
+            if (this.weight==0){
+                return true;
+            }else{
+                return false;
+            }
+        }
+    }
+    class Human{
+        constructor(name,gender,weight) {
+            this.name = name;
+            this.gender = gender;
+            this.weight = weight
+        }
+        isMale(){
+            if (this.gender=="Male"){
+                return true;
+            } else {
+                return false;
+            }
+        }
+        checkApple(apple){
+            if (apple.getWeight()>0){
+                return true;
+            } else {
+                return false;
+            }
+        }
+        setGender(){
+            return this.gender;
+        }
+        eat(apple){
+            if (apple.getWeight()>0){
+                apple.decrease();
+                this.weight++
+            }else {
+                return alert("Táo đã bị ăn hết")
+            }
+        }
+        say(String){
+            return String
+        }
+        getName(){
+            return this.name;
+        }
+        setName(name){
+            this.name = name
+        }
+        getWeight(){
+            return this.weight;
+        }
+        setWeight(weight){
+            this.weight = weight;
+        }
+    }
+    let apple1 = new Apple(10);
+    let adam = new Human("Adam","Male",70);
+    let eva = new Human("Eva","FeMale",50);
+    alert("Khi gặp nhau adam nói "+adam.say("'Có một cái cây trong một cái vườn'")+" còn Eva nói "
+    +eva.say("'Trên những tán cây nở rộ những đóa hoa'"));
+    alert(adam.weight);
+    alert(eva.weight);
+    apple1.isEmpty()
+    alert(apple1.isEmpty())
+    adam.eat(apple1);
+    eva.eat(apple1);
+    alert(adam.getWeight());
+    alert(eva.getWeight());
+    alert(apple1.getWeight());
+    let apple2 = new Apple(20);
+    while (apple2.isEmpty()==false){
+        adam.eat(apple2);
+        eva.eat(apple2);
+    }
+    adam.eat(apple2);
+    eva.eat(apple2);
+    alert(adam.getWeight());
+    alert(eva.getWeight());
+</script>
+</body>
+</html>

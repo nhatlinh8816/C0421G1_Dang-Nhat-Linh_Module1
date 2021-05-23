@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lamp Working</title>
+</head>
+<body>
+<script>
+  class Battery{            //khởi tạo class Batter với thuộc tính là Energy
+      constructor(energy) {
+          this.energy = energy
+      }
+      getEnergy(){              //lấy thuộc tính Energy, trả về giá trị là this.Energy
+          return this.energy
+      }
+      setEnergy(energy){        // cập nhật lại thuộc tính Energy
+          this.energy=energy
+      }
+      decreasEnergy(){          // tính năng giảm Energy đi 1 đơn vị mỗi lần sử
+          if (this.energy>0){
+              this.energy--
+          }
+      }
+  }
+  class FlashLamp{              // khai báo class FlashLamp
+      constructor(battery) {    // thuộc tính Battery của class FlashLam (lắp pin vào đèn)
+          this.battery=battery;
+      }
+      setBattery(battery){
+          this.battery = battery
+      }
+      getBattery(){
+          return this.battery
+      }
+      getBatteryInfo(){
+          return this.battery.getEnergy()
+      }
+      turnOn(){
+          if (this.battery.getEnergy()>0){
+              this.status = true;
+              this.battery.decreasEnergy();
+              return true
+          }else {
+              this.status = false;
+              return false
+          }
+       }
+       turnOff(){
+                this.status = false
+       }
+      light(){
+          if (this.status){
+              alert("Lighting")
+          }else {
+              alert("Not Lighting")
+          }
+      }
+
+  }
+  //test
+    let battery = new Battery(10);
+    let flashLamp = new FlashLamp(battery);
+    document.write("Vừa mới lắp "+flashLamp.getBatteryInfo());
+    flashLamp.light()
+
+    flashLamp.turnOn();
+    flashLamp.light();
+    document.write("sau khi bật "+flashLamp.getBatteryInfo());
+
+    flashLamp.turnOff();
+    flashLamp.light();
+
+</script>
+</body>
+</html>
