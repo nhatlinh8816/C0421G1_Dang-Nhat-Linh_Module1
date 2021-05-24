@@ -10,8 +10,8 @@
         constructor(code) {
             this.code = code;
         }
-        changeChannel(channelA){
-            tv1.channel = channelA;
+        changeChannel(tvObj,channelA){
+            tvObj.setChannel(channelA)
             alert("TV is changed to "+channelA);
         }
         turnOnOff(tivi){
@@ -23,13 +23,13 @@
                 return tivi.status=true
             }
         }
-        decreaseVolume(){
-            tv1.decreaseVolumeTV()
-            console.log("The TV volume has been down to 1")
+        decreaseVolume(tvObj){
+            tvObj.decreaseVolumeTV()
+            alert("The TV volume has been down to 1")
         }
-        increaseVolume(){
-            tv1.increaseVolumeTV()
-            console.log("The TV volume has been up to 1")
+        increaseVolume(tvObj){
+            tvObj.increaseVolumeTV()
+            alert("The TV volume has been up to 1")
         }
     }
     class TV{
@@ -37,7 +37,6 @@
             this.channel = channel;
             this.volume = volume;
             this.status = status;
-            this.remote =remote;
         }
         setChannel(channel){
             this.channel = channel;
@@ -60,10 +59,10 @@
     remote1.turnOnOff(tv1);
     tv1.setChannel("VTV7")
     console.log(tv1);
-    remote1.changeChannel("VTV5");
+    remote1.changeChannel(tv1,"VTV5");
     console.log(tv1);
     for (i=0;i<2;i++){
-        remote1.increaseVolume()
+        remote1.increaseVolume(tv1)
     }
     console.log(tv1)
     remote1.turnOnOff(tv1);
