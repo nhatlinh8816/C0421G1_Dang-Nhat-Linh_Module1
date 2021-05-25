@@ -28,14 +28,15 @@
         }
     }
     class SwitchButton{
-        constructor(status,lamp) {
+        constructor(status) {
             this.status = status;
-            this.lamp =lamp;
         }
-        connectToLamp(lamp){
+        connectToLamp(elctricLampObj){
             if (this.status==true){
+                elctricLampObj.status = true
                 alert("Connected")
             } else {
+                elctricLampObj.status = false
                 alert("Disconnect");
             }
         }
@@ -53,7 +54,12 @@
     let switchButton1 = new SwitchButton(false,electricLamp1);
     switchButton1.switchOn()
     switchButton1.connectToLamp(electricLamp1);
-
+    console.log(electricLamp1);
+    electricLamp1.turnOff()
+    electricLamp1.turnOn();
+    switchButton1.switchOff()
+    switchButton1.connectToLamp(electricLamp1);
+    console.log(electricLamp1);
 </script>
 </body>
 </html>

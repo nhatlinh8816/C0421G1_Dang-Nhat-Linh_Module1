@@ -7,7 +7,45 @@
 <body>
 <script>
     class Mobile{
-        constructor(energy,) {
+        constructor(status,energy,processMess,recieveMess,sendMess) {
+            this.status = status;
+            this.energy = energy;
+            this.processMess = processMess;
+            this.recieveMess = recieveMess;
+            this.sendMess = sendMess;
+        }
+        processingMess(){
+            prompt("Nhập tin nhắn muốn gửi")
+            this.processMess++
+            alert("message progressed is "+this.processMess);
+        }
+        receivingMess(){
+            this.recieveMess++
+            alert("message received is "+this.recieveMess);
+        }
+        sendingMess(){
+            this.recieveMess++
+            alert("message sended is "+this.sendMess);
+        }
+        tunrOn(){
+            return this.status = true;
+        }
+        tunrOff(){
+            return this.status = false;
+        }
+        checkStatus(){
+            if (this.status==true){
+                alert("Phone is on")
+            } else {
+                alert("Phone is off")
+            }
+        }
+        chargePhone(){
+            if (this.energy<100){
+                this.energy++
+            } else {
+                this.energy = 100
+            }
         }
     }
 </script>

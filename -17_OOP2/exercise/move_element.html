@@ -23,11 +23,29 @@
             this.left += this.speed;
             console.log('ok: ' + this.left);
         }
+        this.moveLeft = function(){
+            this.left -= this.speed;
+            console.log('ok: ' + this.left);
+        }
+        this.moveDown= function(){
+            this.top += this.speed;
+            console.log('ok: ' + this.top);
+        }
+        this.moveTop= function(){
+            this.top -= this.speed;
+            console.log('ok: ' + this.top);
+        }
     }
-    var hero = new Hero('Iron_Man_Armor_Model_56.jpg', 20, 30, 600,100);
+    var hero = new Hero('Iron_Man_Armor_Model_56.jpg', 20, 30, 600,1000);
     function start(){
         if(hero.left < window.innerWidth - hero.size){
             hero.moveRight();
+        } else if(hero.left < window.innerWidth + hero.size) {
+            hero.moveLeft();
+        }else if(hero.top < window.innerWidth - hero.size) {
+            hero.moveDown();
+        }else if(hero.top < window.innerWidth + hero.size) {
+            hero.moveTop();
         }
         document.getElementById('game').innerHTML = hero.getHeroElement();
         setTimeout(start, 500)
