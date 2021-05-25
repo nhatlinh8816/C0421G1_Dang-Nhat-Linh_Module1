@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/-16_OOP.1/exercise/build_class_of_phone.html" beforeDir="false" afterPath="$PROJECT_DIR$/-16_OOP.1/exercise/build_class_of_phone.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-16_OOP.1/practice/nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/-16_OOP.1/practice/nháp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-17_OOP2/exercise/move_element.html" beforeDir="false" afterPath="$PROJECT_DIR$/-17_OOP2/exercise/move_element.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-17_OOP2/exercise/switchButton_electricLamp.html" beforeDir="false" afterPath="$PROJECT_DIR$/-17_OOP2/exercise/switchButton_electricLamp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/-17_OOP2/practice/nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/-17_OOP2/practice/nháp.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -109,7 +102,7 @@
       <workItem from="1621560702095" duration="23245000" />
       <workItem from="1621738301843" duration="44462000" />
       <workItem from="1621846469518" duration="9152000" />
-      <workItem from="1621907232016" duration="580000" />
+      <workItem from="1621907232016" duration="943000" />
     </task>
     <servers />
   </component>
