@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>3.5</title>
+</head>
+<body>
+<h3 style="alignment: center">Menu</h3>
+<div id="productTable"></div>
+<div id="sumPrice"></div>
+<script>
+let menu= ["Cafe","Cam vắt","Nước ép cà rốt","Nước ép cà chua","Nước lọc","Nước dừa"];
+let price= [10000,20000,15000,15000,2000,25000];
+let sum = 0;
+function displayProduct() {
+    let protable =
+        "<table>"+
+        "<tr>"+
+        "<th>Serial</th>"+
+        "<th>Items</th>"+
+        "<th>Price</th>"+
+        "<th>Add</th>" +
+        "</tr>";
+        for (i = 0; i < menu.length; i++) {
+            protable = protable +
+                "<tr>" +
+                "<td>" + (i + 1) + "</td>" +
+                "<td>" + menu[i] + "</td>" +
+                "<td>" + price[i] + "</td>" +
+                "<td><button onclick='addProduct("+i+")'>Add</button></td>" +
+                "</tr>";
+        }
+        protable = protable +
+            "<tr>" +
+            "<td>" + (i + 1) + "</td>" +
+            "<td>" + "Thoát" + "</td>" +
+            "<td></td>" +
+            "<td><button onclick='doneProduct()'>OK</button></td>" +
+            "</tr>";
+         protable = protable +
+            "</table>";
+        document.getElementById("productTable").innerHTML =protable;
+}
+
+    displayProduct();
+    function addProduct(i) {
+        let soLuong = parseInt(prompt("Nhap so luong"));
+        sum += price[i]*soLuong;
+        document.getElementById("sumPrice").innerText = "Số tiền quý khách cần trả là " +sum+" VNĐ"
+    }
+    function doneProduct() {
+        document.getElementById("sumPrice").innerText = "";
+    }
+
+</script>
+</body>
+</html>

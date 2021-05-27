@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="" />
+    <list default="true" id="a289b239-de1a-4e20-9cb5-0d16f62e435f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/case_study/task 1.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 1.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 1.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 1.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 2.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 2.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 3.1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 3.2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 3.3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 3.4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 3.5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case_study/task 5.1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-17_OOP2/exercise/move_element.html" beforeDir="false" afterPath="$PROJECT_DIR$/-17_OOP2/exercise/move_element.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/-17_OOP2/practice/nháp.html" beforeDir="false" afterPath="$PROJECT_DIR$/-17_OOP2/practice/nháp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,22 +48,22 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/-17_OOP2/practice" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/case_study" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\case_study" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-17_OOP2\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-16_OOP.1\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-16_OOP.1\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-15_Funtion2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-17_OOP2\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-17_OOP2\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-16_OOP.1\practice" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-16_OOP.1\exercise" />
       <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-13_Mang2\exercise" />
-      <recent name="G:\lập trình\C0421G1_DangNhatLinh_Module1\-10_Cau_truc_lap1\practice" />
     </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.build_class_of_rectangle(function).html">
@@ -102,7 +118,8 @@
       <workItem from="1621560702095" duration="23245000" />
       <workItem from="1621738301843" duration="44462000" />
       <workItem from="1621846469518" duration="9152000" />
-      <workItem from="1621907232016" duration="943000" />
+      <workItem from="1621907232016" duration="31524000" />
+      <workItem from="1621999298653" duration="20409000" />
     </task>
     <servers />
   </component>
@@ -194,9 +211,21 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1621320493592" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1621092504645">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1622004583991">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1621092504645" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1622004583991" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/case_study/task 3.5.html</url>
+          <line>44</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
