@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 1</title>
+</head>
+<body>
+<script>
+    let array = Array();
+    function add(array) {
+        for(i=0;i<5;i++){
+            let b = parseInt(prompt("Nhập số"))
+            array.push(b)
+        }
+        return array
+    }
+    let array1 = add(array);
+    document.write("Mảng ban đầu "+array1+'<br>')
+
+    function displayAndAscending(array) {
+        array.sort(function(a, b){return a - b});
+        return array
+    }
+    let ascendingArray = displayAndAscending(array1);
+    document.write("Mảng sau khi sắp xếp "+ascendingArray)
+</script>
+</body>
+</html>

@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 4</title>
+</head>
+<body>
+<script>
+    class Student {
+        constructor(serial,name,date,average) {
+            this.serial = serial;
+            this.name = name;
+            this.date = date;
+            this.average = average
+        }
+        check(ave) {
+            if (ave > 8) {
+                return "là học sinh Giỏi"
+            } else if (ave >= 6.5) {
+                return "là học sinh Khá"
+            } else if (ave >= 5) {
+                return "là học sinh Trung bình"
+            } else if (ave >= 3.5) {
+                return "là học sinh yếu"
+            } else {
+                return "là học sinh kém"
+            }
+
+        }
+        }
+        let student1 = new Student(1,"Đặng Nhật Linh","13/02/1994",3);
+    console.log(student1.serial);
+    console.log(student1.name );
+    console.log(student1.date );
+    console.log(student1.average );
+    document.write(student1.name+" "+student1.check(student1.average))
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bài 2</title>
+</head>
+<body>
+<script>
+    function isMainNumber(number) {
+        if (number%Math.sqrt(number)==0){
+            return number+" là số chính phương"
+        } else {
+            return number+" không là số chính phương"
+        }
+    }
+    document.write(isMainNumber(11)+"<br>");
+    document.write(isMainNumber(2));
+</script>
+</body>
+</html>

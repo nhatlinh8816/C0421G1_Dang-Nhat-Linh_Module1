@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>4.2</title>
+</head>
+<body>
+<script>
+let a = prompt("Nhập chuỗi");
+function differentNumberInString(string) {
+    let arr = [];
+    for (i=0;i<string.length;i++){
+        if (arr.indexOf(string.charAt(i))==-1){
+            arr.push(string.charAt(i))
+        }
+    }
+    return arr.length
+}
+let result = differentNumberInString(a);
+document.write(result)
+</script>
+</body>
+</html>

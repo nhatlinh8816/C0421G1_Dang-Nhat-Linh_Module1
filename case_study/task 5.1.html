@@ -6,14 +6,28 @@
 </head>
 <body>
 <script>
-    let m = parseFloat(prompt("Nhập số m"));
-    let n = parseFloat(prompt("Nhập số n"));
-    let a = [];
-    for (i=0;i<m;i++){
-        for (j=0;j<n;j++){
-            if
+    let array = [
+        [1,2,3,4,11],[5,13,6,7,8]
+    ]
+    let max = array[0][0];
+        for (i=1;i<array.length;i++) {
+            for (j = 1; j < array[i].length; j++) {
+                if (array[i][j]>max){
+                    max = array[i][j]
+                }
+            }
+        }
+        console.log(max)
+    let min = array[0][0];
+    for (i=1;i<array.length;i++) {
+        for (j = 1; j < array[i].length; j++) {
+            if (array[i][j]<min){
+                min = array[i][j]
+            }
         }
     }
+    console.log(min)
+
 </script>
 </body>
 </html>

@@ -7,16 +7,10 @@
 <body>
 <script>
 let a = [1,2,3,4,5,6,8];
-let b = [1,2,3,8,5,6,7,9,0,8];
+let b = [1,2,3,8,5,6,7,9,0,8,7];
 let c =[];
 for (i=0;i<b.length;i++) {
-    let check = true;
-    for (j = 0; j < a.length; j++) {
-        if (b[i] == a[j]) {
-            check = false
-        }
-        }
-    if (check)  {
+    if (a.indexOf(b[i])==-1&&c.indexOf(b[i])==-1){
         c.push(b[i])
     }
 } console.log(c)
